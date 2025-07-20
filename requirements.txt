@@ -1,4 +1,29 @@
-streamlit
-requests
-beautifulsoup4
-openai
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+openai>=1.3.0
+python-dotenv>=1.0.0
+schedule>=1.2.0
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0
+
+# Web scraping and parsing
+selenium>=4.15.0
+lxml>=4.9.0
+feedparser>=6.0.0
+
+# API integrations
+slack-sdk>=3.23.0
+notion-client>=2.2.0
+
+# Data processing
+pandas>=2.1.0
+python-dateutil>=2.8.0
+
+# Optional: Web framework for dashboard
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Testing and development
+pytest>=7.4.0
+python-decouple>=3.8

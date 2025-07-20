@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Notion",
+    "website_url": "https://www.notion.so",
+    "changelog_url": "https://www.notion.so/releases",
+    "pricing_url": "https://www.notion.so/pricing",
+    "blog_url": "https://www.notion.so/blog",
+    "social_urls": [
+      "https://twitter.com/notionhq"
+    ],
+    "app_store_urls": {
+      "ios": "https://apps.apple.com/app/notion-notes-docs-tasks/id1232780281",
+      "android": "https://play.google.com/store/apps/details?id=notion.id"
+    },
+    "rss_feeds": [
+      "https://www.notion.so/blog/rss"
+    ]
+  },
+  {
+    "name": "Airtable",
+    "website_url": "https://www.airtable.com",
+    "changelog_url": "https://support.airtable.com/docs/whats-new",
+    "pricing_url": "https://www.airtable.com/pricing",
+    "blog_url": "https://blog.airtable.com",
+    "social_urls": [
+      "https://twitter.com/airtable"
+    ],
+    "app_store_urls": {
+      "ios": "https://apps.apple.com/app/airtable/id914172636",
+      "android": "https://play.google.com/store/apps/details?id=com.formagrid.airtable"
+    },
+    "rss_feeds": [
+      "https://blog.airtable.com/feed/"
+    ]
+  },
+  {
+    "name": "Monday.com",
+    "website_url": "https://monday.com",
+    "changelog_url": "https://support.monday.com/hc/en-us/sections/360000048679-What-s-New",
+    "pricing_url": "https://monday.com/pricing",
+    "blog_url": "https://monday.com/blog",
+    "social_urls": [
+      "https://twitter.com/mondaydotcom"
+    ],
+    "app_store_urls": {
+      "ios": "https://apps.apple.com/app/monday-com/id1298986856",
+      "android": "https://play.google.com/store/apps/details?id=com.monday.monday"
+    }
+  },
+  {
+    "name": "Asana",
+    "website_url": "https://asana.com",
+    "changelog_url": "https://asana.com/guide/help/faq/release-notes",
+    "pricing_url": "https://asana.com/pricing",
+    "blog_url": "https://blog.asana.com",
+    "social_urls": [
+      "https://twitter.com/asana"
+    ],
+    "app_store_urls": {
+      "ios": "https://apps.apple.com/app/asana-organize-team-projects/id489969512",
+      "android": "https://play.google.com/store/apps/details?id=com.asana.app"
+    },
+    "rss_feeds": [
+      "https://blog.asana.com/feed/"
+    ]
+  },
+  {
+    "name": "Slack",
+    "website_url": "https://slack.com",
+    "changelog_url": "https://slack.com/release-notes",
+    "pricing_url": "https://slack.com/pricing",
+    "blog_url": "https://slack.com/blog",
+    "social_urls": [
+      "https://twitter.com/slackhq"
+    ],
+    "app_store_urls": {
+      "ios": "https://apps.apple.com/app/slack/id618783545",
+      "android": "https://play.google.com/store/apps/details?id=com.Slack"
+    }
+  }
+]

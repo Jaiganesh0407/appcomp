@@ -1,0 +1,45 @@
+{
+  "monitoring_frequency": "weekly",
+  "ai_model": "gpt-4",
+  "max_content_length": 5000,
+  "timeout": 30,
+  "enable_selenium": true,
+  "notification_channels": ["slack", "notion"],
+  "changelog_keywords": [
+    "release",
+    "update",
+    "new",
+    "feature",
+    "version",
+    "changelog",
+    "what's new",
+    "releases"
+  ],
+  "pricing_keywords": [
+    "price",
+    "pricing",
+    "cost",
+    "plan",
+    "subscription",
+    "billing",
+    "enterprise",
+    "pro",
+    "premium"
+  ],
+  "social_keywords": [
+    "announcement",
+    "launch",
+    "new feature",
+    "product update",
+    "pricing",
+    "integration"
+  ],
+  "app_store_keywords": [
+    "update",
+    "new",
+    "feature",
+    "improvement",
+    "bug fix",
+    "enhancement"
+  ]
+}

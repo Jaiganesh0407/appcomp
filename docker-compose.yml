@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  competitor-monitor:
+    build: .
+    container_name: ai-competitor-monitor
+    volumes:
+      - ./reports:/app/reports
+      - ./logs:/app/logs
+      - ./.env:/app/.env
+      - ./config.json:/app/config.json
+      - ./targets.json:/app/targets.json
+      - ./historical_data.json:/app/historical_data.json
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
+    depends_on:
+      - postgres
+    networks:
+      - competitor-network
+
+  # Optional PostgreSQL database
+  postgres:
+    image: postgres:15-alpine
+    container_name: competitor-monitor-db
+    environment:
+      POSTGRES_DB: competitor_monitor
+      POSTGRES_USER: competitor_user
+      POSTGRES_PASSWORD: competitor_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    networks:
+      - competitor-network
+
+  # Optional Redis for caching
+  redis:
+    image: redis:7-alpine
+    container_name: competitor-monitor-redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    networks:
+      - competitor-network
+
+volumes:
+  postgres_data:
+
+networks:
+  competitor-network:
+    driver: bridge
